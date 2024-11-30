@@ -1,0 +1,6 @@
+jupyter
+ipykernel
+datasets
+openai
+python-dotenv
+jsonlines
