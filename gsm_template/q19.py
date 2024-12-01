@@ -71,9 +71,9 @@ def generate_problem_and_solution_code():
 
 
     # Construct problem statement
-    problem_statement = f"{name} rides their bike back and forth to work for each of {days} days. "
+    problem_statement = f"{name} rides their bike back and forth to work for each of their {days} workdays. "
     problem_statement += f"Their work is {distance_to_destination} miles away. "
-    problem_statement += f"They also go for an extra weekend bike ride of {extra_activity_distance} miles. "
+    problem_statement += f"They also go for a weekend bike ride of {extra_activity_distance} miles. "
     problem_statement += f"If they can {activity} at {speed} mph how much time do they spend biking a week?"
 
     # Generate solution code

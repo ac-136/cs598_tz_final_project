@@ -109,7 +109,7 @@ def get_params_combination():
 
 
 parser = argparse.ArgumentParser(description="Generate problems and solutions.")
-parser.add_argument("--num_problems", type=int, default=10000, help="Number of problems to generate")
+parser.add_argument("--num_problems", type=int, default=100, help="Number of problems to generate")
 
 args = parser.parse_args()
 NUM_PROBLEMS = args.num_problems
